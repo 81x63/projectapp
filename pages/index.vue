@@ -13,7 +13,7 @@
             <label for="floatingPassword">Password</label>
         </div>
         <div class="card-body text-center mt-2">
-            <a href="../pages/set.vue" class="btn bg-primary-subtle">ログイン</a>
+            <button  class="btn bg-primary-subtle"><NuxtLink to="/set">ログイン</NuxtLink></button>
         </div>
     </div>
 </template>
