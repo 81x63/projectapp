@@ -13,7 +13,7 @@
             <label for="floatingPassword">Password</label>
         </div>
         <div class="card-body text-center mt-2">
-            <a href="./homepage.vue" class="btn bg-primary-subtle">ログイン</a>
+            <a href="#" class="btn bg-primary-subtle">ログイン</a>
         </div>
     </div>
 </template>
