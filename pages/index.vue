@@ -1,19 +1,19 @@
 <template>
-    <div class="card mx-auto" style="width: 18rem;">
-        <img src="../assets/MicrosoftTeams-image.png" class="mx-auto d-block" style="width: 100px; height: 100px;">
+    <div class="card mx-auto mt-5" style="width: 300px;">
+        <img src="../assets/MicrosoftTeams-image.png" class="mx-auto d-block mt-3" style="width: 150px; height: 150px;">
         <div class="card-body">
-            <h3 class="card-title">LOGIN</h3>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+            <h2 class="card-title text-center mt-3">LOGIN</h2>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-        </ul>
-        <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+        <div class="form-floating mb-3 mx-auto">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mx-auto">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <div class="card-body text-center mt-2">
+            <a href="./homepage.vue" class="btn bg-primary-subtle">ログイン</a>
         </div>
     </div>
 </template>
